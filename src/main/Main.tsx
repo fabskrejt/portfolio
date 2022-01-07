@@ -5,10 +5,14 @@ export const Main = () => {
     return (
         <div className={styles.mainBlock}>
             <div className={styles.container}>
-                <div className={styles.textAboutNe}>
-                    Привет! Меня Зовут и я прихожу.
+                <div className={styles.text}>
+                <span>Hi There</span>
+                    <h1>I am Vladimir Sits</h1>
+                    <span>Frontend Developer</span>
                 </div>
-                <img src={''}/>
+                <div className={styles.img}>
+                    <img src={''}/>
+                </div>
             </div>
         </div>
     )
