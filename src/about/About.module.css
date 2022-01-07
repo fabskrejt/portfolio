@@ -1,8 +1,4 @@
-import React from "react";
-
-export const About = () => {
-    return (
-        <div className={}>
-
-        </div>)
+.container{
+    background-color: bisque;
+    height: 100vh;
 }

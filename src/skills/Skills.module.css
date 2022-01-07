@@ -1,9 +1,4 @@
-import React from "react";
-
-export const Skills = ()=> {
-    return(
-        <div>
-
-        </div>
-    )
+.container{
+    background-color: brown;
+    height: 100vh;
 }
