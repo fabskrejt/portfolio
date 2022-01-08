@@ -7,7 +7,7 @@ export const Main = () => {
         <div className={styles.mainBlock}>
             <div className={stylesContainer.container}>
                 <div className={styles.text}>
-                <span>Hi There</span>
+                    <span>Hi There</span>
                     <h1>I am Vladimir Sits</h1>
                     <span>Frontend Developer</span>
                 </div>
