@@ -2,15 +2,6 @@
     background-color: bisque;
     height: 100vh;
 }
-.container{
-    width: 80%;
-    height: 100%;
-    border: 1px solid;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .text{
     width: 300px;
