@@ -1,0 +1,25 @@
+.project{
+    width: 600px;
+    background-color: gray;
+}
+
+.previewImg{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previewImg button{
+    width: 200px;
+    height: 30px;
+}
+
+.title{
+    background-color: white;
+}
+
+.description{
+    background-color: bisque;
+}
