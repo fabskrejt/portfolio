@@ -1,11 +1,15 @@
 import React from "react";
 import styles from './Skill.module.css'
 
-export const Skill = () => {
+type SkillPropsType = {
+    title: string
+}
+
+export const Skill = (props:SkillPropsType) => {
 return(
-    <div className={styles.container}>
-        <img src={''}/>
-        <span>My skill</span>
+    <div className={styles.skill}>
+        <div className={styles.icon}></div>
+        <h3>{props.title}</h3>
     </div>
 )
 }
