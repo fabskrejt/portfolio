@@ -1,0 +1,33 @@
+.contacts{
+    min-height: 100vh;
+    background-color: cornflowerblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contacts form{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 40px 0;
+}
+
+.contacts input{
+    min-height: 30px;
+    margin-bottom: 10px;
+}
+
+.contacts textarea{
+    min-height: 60px;
+}
+.contacts h2{
+    background-color: white;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+}
