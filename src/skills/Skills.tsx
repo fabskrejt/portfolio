@@ -7,7 +7,7 @@ export const Skills = () => {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styles.container} ${stylesContainer.container}`}>
-                <h2 className={styles.title}>Мои скилы</h2>
+                <h2 className={styles.title}>My Skills</h2>
                 <div className={styles.skills}>
                     <Skill title={'CSS'} description={'Som text for test'}/>
                     <Skill title={'React'} description={'Som text for test. Just my skill, one of a million'}/>
