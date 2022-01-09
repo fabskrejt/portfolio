@@ -11,7 +11,7 @@
 .contacts form{
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 280px;
     margin: 40px 0;
 }
 
