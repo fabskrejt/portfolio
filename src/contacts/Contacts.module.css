@@ -9,10 +9,10 @@
 }
 
 .contacts form{
+    width: 270px;
+    margin: 40px 0;
     display: flex;
     flex-direction: column;
-    width: 280px;
-    margin: 40px 0;
 }
 
 .contacts input{
