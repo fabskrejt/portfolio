@@ -4,9 +4,11 @@
 }
 
 .text{
-    width: 300px;
-    background-color: white;
-    border: 1px solid;
+    min-width: 300px;
+    color: #fdfeff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6em;
 }
 
 .img{
@@ -14,4 +16,15 @@
     width: 300px;
     height: 400px;
     background-color: white;
+}
+
+.text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.text span{
+    color: #a9adb8;
+}
+.text h1 span{
+    color: #fec544;;
 }

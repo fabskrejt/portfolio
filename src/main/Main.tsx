@@ -8,8 +8,8 @@ export const Main = () => {
             <div className={stylesContainer.container}>
                 <div className={styles.text}>
                     <span>Hi There</span>
-                    <h1>I am Vladimir Shits</h1>
-                    <span>Frontend Developer</span>
+                    <h1>I am <span>Vladimir Shits</span></h1>
+                    <span>I am a frontend web developer</span>
                 </div>
                 <div className={styles.img}>
                     <img src={''}/>
