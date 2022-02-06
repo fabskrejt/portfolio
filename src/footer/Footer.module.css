@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    background-color: #070d1b;
 }
 .footerImgContainer{
     display: flex;
