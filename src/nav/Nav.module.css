@@ -1,11 +1,16 @@
 .nav {
-    border: 1px solid;
     width: 300px;
     display: flex;
     justify-content: space-between;
 
+
 }
 
-a {
+.nav a {
     text-decoration: none;
+    font-size: 15px;
+    color: #fdfeff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
