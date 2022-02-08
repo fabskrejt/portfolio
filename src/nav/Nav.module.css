@@ -14,3 +14,7 @@
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
+
+.nav a:hover{
+    color: #fec544;
+}
