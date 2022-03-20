@@ -5,6 +5,7 @@ import stylesContainer from '../common/styles/Container.module.css'
 import {faReact} from "@fortawesome/free-brands-svg-icons/faReact";
 import {faJs} from "@fortawesome/free-brands-svg-icons/faJs";
 import {faCss3} from "@fortawesome/free-brands-svg-icons/faCss3";
+import {faHtml5} from "@fortawesome/free-brands-svg-icons/faHtml5";
 
 export const Skills = () => {
     return (
@@ -14,6 +15,7 @@ export const Skills = () => {
                 <div className={styles.skills}>
                     <Skill title={'JS'} description={'Som text for test. I know it. It is easy for me if you don\'t ask about it' } icon={faJs}/>
                     <Skill title={'React'} description={'Som text for test. Just my skill, one of a million'} icon={faReact}/>
+                    <Skill title={'HTML'} description={'Som text for test'} icon={faHtml5}/>
                     <Skill title={'CSS'} description={'Som text for test'} icon={faCss3}/>
                 </div>
             </div>
