@@ -17,6 +17,8 @@ export const Skills = () => {
                     <Skill title={'React'} description={'Som text for test. Just my skill, one of a million'} icon={faReact}/>
                     <Skill title={'HTML'} description={'Som text for test'} icon={faHtml5}/>
                     <Skill title={'CSS'} description={'Som text for test'} icon={faCss3}/>
+                    <Skill title={'TypeScript'} description={'Som text for test'} icon={faCss3}/>
+                    <Skill title={'Redux'} description={'Som text for test'} icon={faCss3}/>
                 </div>
             </div>
 
