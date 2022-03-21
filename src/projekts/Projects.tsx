@@ -11,6 +11,7 @@ export const Projects = () => {
                 <div className={styles.projects}>
                     <Project title={'Todolist'} description={'One of my projects'}/>
                     <Project title={'Social Network'} description={'One of my projects'}/>
+                    <Project title={'Cards'} description={'One of my projects'}/>
                 </div>
             </div>
 
