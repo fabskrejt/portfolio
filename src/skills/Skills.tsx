@@ -13,8 +13,11 @@ export const Skills = () => {
             <div className={`${styles.container} ${stylesContainer.container}`}>
                 <h2 className={styles.title}>My Skills</h2>
                 <div className={styles.skills}>
-                    <Skill title={'JS'} description={'Som text for test. I know it. It is easy for me if you don\'t ask about it' } icon={faJs}/>
-                    <Skill title={'React'} description={'Som text for test. Just my skill, one of a million'} icon={faReact}/>
+                    <Skill title={'JS'}
+                           description={'Som text for test. I have a good knowledge'}
+                           icon={faJs}/>
+                    <Skill title={'React'} description={'Som text for test. Just my skill, one of a million'}
+                           icon={faReact}/>
                     <Skill title={'HTML'} description={'Som text for test'} icon={faHtml5}/>
                     <Skill title={'CSS'} description={'Som text for test'} icon={faCss3}/>
                     <Skill title={'TypeScript'} description={'Som text for test'} icon={faCss3}/>
