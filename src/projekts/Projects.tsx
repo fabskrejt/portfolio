@@ -5,8 +5,8 @@ import {Project} from './project/Project';
 import todoPrev from '../assets/img/todo.png'
 
 export const Projects = () => {
-    let backgroundForTodolist = {
-        backgroundImage: 'url(' + '../assets/img/todo.png' + ')'
+    const backgroundForTodolist = {
+        backgroundImage: 'url('+'./../assets/img/todo.png'+')'
     }
     return (
         <div className={styles.projectsBlock}>
