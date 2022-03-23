@@ -3,11 +3,20 @@ import styles from './Projects.module.css'
 import stylesContainer from '../common/styles/Container.module.css'
 import {Project} from './project/Project';
 import todoPrev from '../assets/img/todo.png'
+import socialNetwork from '../assets/img/socialNetwork.png'
+import cards from '../assets/img/cards.png'
 
 export const Projects = () => {
     const backgroundForTodolist = {
-        backgroundImage: 'url('+'./../assets/img/todo.png'+')'
+        backgroundImage: `url(${todoPrev})`,
     }
+    const backgroundForSocialNetwork = {
+        backgroundImage: `url(${socialNetwork})`
+    }
+    const backgroundForCards = {
+        backgroundImage: `url(${cards})`
+    }
+
     return (
         <div className={styles.projectsBlock}>
             <div className={`${stylesContainer.container} ${styles.container}`}>
@@ -19,11 +28,11 @@ export const Projects = () => {
                     />
                     <Project title={'Social Network'} description={'One of my projects'}
                              refToProject={"https://fabskrejt.github.io/social_network_react_ts_project/"}
-                             style={backgroundForTodolist}
+                             style={backgroundForSocialNetwork}
                     />
                     <Project title={'Cards'} description={'One of my projects'}
                              refToProject={'https://fabskrejt.github.io/card-learning/'}
-                             style={backgroundForTodolist}
+                             style={backgroundForCards}
                     />
                 </div>
             </div>

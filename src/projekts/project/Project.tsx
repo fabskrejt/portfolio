@@ -8,12 +8,10 @@ type ProjectPropsType ={
     style: {}
 }
 export const Project =(props: ProjectPropsType)=>{
-    const backgroundForTodolist = {
-        backgroundImage: 'url('+'../../assets/img/todo.png'+')'
-    }
+
     return(
         <div className={styles.project}>
-                <div className={styles.previewImg} style={{}}>
+                <div className={styles.previewImg} style={props.style}>
                     <a target={'_blank'} href={props.refToProject} >Watch</a>
                 </div>
             <h3 className={styles.title}>{props.title}</h3>
