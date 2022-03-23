@@ -1,9 +1,9 @@
-.mainBlock{
+.mainBlock {
     background-color: #070d1b;
     height: 100vh;
 }
 
-.text{
+.text {
     min-width: 300px;
     color: #fdfeff;
     font-size: 18px;
@@ -11,20 +11,26 @@
     line-height: 1.6em;
 }
 
-.img{
+.img {
     border: 1px solid;
     width: 300px;
     height: 400px;
     background-color: white;
 }
 
-.text h1{
+.img img {
+    width: 300px;
+}
+
+.text h1 {
     font-size: 60px;
     font-weight: 600;
 }
-.text span{
+
+.text span {
     color: #a9adb8;
 }
-.text h1 span{
+
+.text h1 span {
     color: #fec544;;
 }
