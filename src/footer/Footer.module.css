@@ -5,6 +5,7 @@
     justify-items: center;
     align-items: center;
     background-color: #070d1b;
+    color: white;
 }
 .footerImgContainer{
     display: flex;
