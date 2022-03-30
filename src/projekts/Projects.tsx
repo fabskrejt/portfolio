@@ -22,7 +22,8 @@ export const Projects = () => {
             <div className={`${stylesContainer.container} ${styles.container}`}>
                 <h2 className={styles.title}>My Projects</h2>
                 <div className={styles.projects}>
-                    <Project title={'Todolist'} description={'One of my projects'}
+                    <Project title={'Todolist'} description={'TypeScript, React, Redux, MUI, Redux-thunk, ' +
+                    'Router-dom, Axios, Storybook, Formik'}
                              refToProject={'https://fabskrejt.github.io/todolist-wed/'}
                              style={backgroundForTodolist}
                     />
