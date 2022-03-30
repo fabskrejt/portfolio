@@ -1,6 +1,7 @@
 .project {
     width: 450px;
-    background-color: gray;
+    background-color: #101624;
+    text-align: center;
 }
 
 .previewImg {
@@ -11,19 +12,33 @@
     align-items: center;
     background-size: cover;
     background-position: center;
+    opacity: 40%;
+
+}
+
+.previewImg:hover {
+    transition: 300ms;
+    opacity: 100%;
 }
 
 .previewImg a {
     width: 200px;
-    background-color: wheat;
+    color: #fec544;;
+    background-color: #070d1b;
     text-align: center;
     padding: 10px 0;
+    text-decoration: none;
 }
 
+
 .title {
-    background-color: white;
+    color: #fdfeff;;
 }
 
 .description {
-    background-color: bisque;
+    color: #a9adb8;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
 }
