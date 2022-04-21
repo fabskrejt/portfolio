@@ -14,11 +14,12 @@ export const Skills = () => {
                 <h2 className={styles.title}>My Skills</h2>
                 <div className={styles.skills}>
                     <Skill title={'JS'}
-                           description={'Som text for test. I have a good knowledge'}
+                           description={'I have a good knowledge of javascript and I continue to improve it.'}
                            icon={faJs}/>
-                    <Skill title={'React'} description={'Som text for test. Just my skill, one of a million'}
+                    <Skill title={'React'} description={'I have experience in creating SPA applications.' +
+                    ' I like using React/redux, but that doesn\'t mean I don\'t want to try other tools.'}
                            icon={faReact}/>
-                    <Skill title={'HTML'} description={'Som text for test'} icon={faHtml5}/>
+                    <Skill title={'HTML'} description={'I use it in my projects. I understand what BEM is and why it is needed.'} icon={faHtml5}/>
                     <Skill title={'CSS'} description={'Som text for test'} icon={faCss3}/>
                     <Skill title={'TypeScript'} description={'Som text for test'} icon={faCss3}/>
                     <Skill title={'Redux'} description={'Som text for test'} icon={faCss3}/>
