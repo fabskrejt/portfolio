@@ -12,7 +12,6 @@
 }
 
 .img {
-    border: 1px solid;
     width: 300px;
     height: 400px;
 }
@@ -34,3 +33,18 @@
 .text h1 span {
     color: #fec544;;
 }
+.particles {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+/*
+.particlesCanvas{
+    width: 50px;
+}
+*/
+
