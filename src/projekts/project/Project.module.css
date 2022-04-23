@@ -3,6 +3,7 @@
     background-color: #101624;
     text-align: center;
     padding: 30px;
+    margin-bottom: 30px;
 }
 
 .previewImg {
@@ -14,23 +15,40 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 40%;
+    position: relative;
+    /*opacity: 40%;*/
 }
 
-.previewImg:hover {
-    transition: 300ms;
-    opacity: 100%;
+.previewImg::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 50%;
 }
 
 .previewImg a {
     width: 200px;
-    color: #fec544;;
+    border-radius: 5px;
+    color: #fec544;
     background-color: #070d1b;
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 12px 18px -6px rgba(254,197,68,0.8)
 }
 
+.previewImg a:hover{
+    background-color:#fec544;
+    color:#070d1b;
+    box-shadow: none;
+    transition: 300ms;
+}
 
 .title {
     color: #fdfeff;;
