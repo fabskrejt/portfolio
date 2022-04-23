@@ -6,4 +6,7 @@
     height: 80px;
     color: #fdfeff;
     padding-right: 40px;
+    position: sticky;
+    top:0;
+    z-index: 2;
 }

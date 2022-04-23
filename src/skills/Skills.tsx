@@ -11,7 +11,7 @@ import typescript from "../assets/img/typescript.png"
 
 export const Skills = () => {
     return (
-        <div className={styles.skillsBlock}>
+        <div id={'skills'} className={styles.skillsBlock}>
             <div className={`${styles.container} ${stylesContainer.container}`}>
                 <h2 className={styles.title}>My Skills</h2>
                 <div className={styles.skills}>

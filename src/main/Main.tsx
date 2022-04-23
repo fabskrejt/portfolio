@@ -4,7 +4,7 @@ import stylesContainer from '../common/styles/Container.module.css'
 import photo from '../assets/img/mainPhoto.jpg'
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
-
+import imf from '../assets/img/typescript.png'
 
 const particlesOpt ={
     fpsLimit: 60,
@@ -13,8 +13,9 @@ const particlesOpt ={
         "zIndex": 1
     },
     particles: {
+
         color: {
-            value: "#1e2c65"
+            value: "#0a57c7"
         },
         links: {
             enable: true,
@@ -44,8 +45,6 @@ export const Main = () => {
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={particlesOpt}
-                width='100%'
-                height='100vh'
             />
             <div className={stylesContainer.container}>
                 <div className={styles.text}>
