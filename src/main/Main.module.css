@@ -21,6 +21,14 @@
     width: 100%;
     height: auto;
     border-radius: 15px;
+    position: relative;
+    z-index: 4;
+    transition: 800ms;
+}
+
+.img img:hover {
+    transform: scale(1.3, 1.3);
+    transition: 800ms;
 }
 
 .text h1 {
