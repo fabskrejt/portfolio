@@ -1,29 +1,31 @@
-.contacts{
+.contacts {
     min-height: 40vh;
     background-color: #0a101e;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.contacts form{
+.contacts form {
     width: 270px;
     margin: 40px 0;
     display: flex;
     flex-direction: column;
 }
 
-.contacts input{
+.contacts input {
     min-height: 30px;
     margin-bottom: 10px;
 }
 
-.contacts textarea{
+.contacts textarea {
     min-height: 60px;
 }
-.contacts h2{
+
+.contacts h2 {
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
@@ -31,7 +33,21 @@
     letter-spacing: 1px;
 }
 
-button{
-    width: 90px;
+button {
+    width: 200px;
     height: 40px;
+    border-radius: 5px;
+    color: #fec544;
+    background-color: #070d1b;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    box-shadow: 0 12px 18px -6px rgba(254, 197, 68, 0.8)
+}
+
+button:hover {
+    background-color: #fec544;
+    color: #070d1b;
+    box-shadow: none;
+    transition: 300ms;
 }
