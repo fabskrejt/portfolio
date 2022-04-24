@@ -4,9 +4,10 @@ import stylesContainer from '../common/styles/Container.module.css'
 import photo from '../assets/img/mainPhoto.jpg'
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
-import imf from '../assets/img/typescript.png'
+// @ts-ignore
+import ReactTypingEffect from 'react-typing-effect'
 
-const particlesOpt ={
+const particlesOpt = {
     fpsLimit: 60,
     "fullScreen": {
         "enable": false,
@@ -50,7 +51,14 @@ export const Main = () => {
                 <div className={styles.text}>
                     <span>Hi There</span>
                     <h1>I am <span>Vladimir Shits</span></h1>
-                    <span>I am a frontend web developer</span>
+                    <span>I am a </span>
+                    <ReactTypingEffect
+                        text='frontend web developer'
+                        typingDelay='1000'
+                        speed='100'
+                        eraseSpeed='200'
+                        eraseDelay={'3000'}
+                    />
                 </div>
                 <div className={styles.img}>
                     <img src={photo} alt={'ownerPhoto'}/>
