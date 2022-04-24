@@ -38,7 +38,7 @@ export const Main = () => {
     };
 
     return (
-        <div className={styles.mainBlock}>
+        <div id={'main'} className={styles.mainBlock}>
             <Particles
                 canvasClassName={styles.particlesCanvas}
                 className={styles.particles}
