@@ -26,13 +26,22 @@
     font-weight: 600;
 }
 
+@media (max-width: 639px) {
+    .text h1 {
+        line-height: 60px;
+    }
+}
+
 .text span {
     color: #a9adb8;
+
 }
 
 .text h1 span {
-    color: #fec544;;
+    color: #fec544;
+
 }
+
 .particles {
     width: 100%;
     height: 100vh;
