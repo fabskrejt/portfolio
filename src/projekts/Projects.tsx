@@ -22,16 +22,19 @@ export const Projects = () => {
             <div className={`${stylesContainer.container} ${styles.container}`}>
                 <h2 className={styles.title}>My Projects</h2>
                 <div className={styles.projects}>
-                    <Project title={'Todolist'} description={'TypeScript, React, Redux, MUI, Redux-thunk, ' +
-                    'Router-dom, Axios, Storybook, Formik'}
+                    <Project title={'Todolist'}
+                             description={'TypeScript, React, Redux, MUI, Redux-thunk, ' +
+                             'Router-dom, Axios, Storybook, Formik'}
                              refToProject={'https://fabskrejt.github.io/todolist-wed/'}
                              style={backgroundForTodolist}
                     />
-                    <Project title={'Social Network'} description={'One of my projects'}
+                    <Project title={'Social Network'}
+                             description={'TypeScript, React, Redux, Redux-thunk, Router-dom, Axios, Formik'}
                              refToProject={"https://fabskrejt.github.io/social_network_react_ts_project/"}
                              style={backgroundForSocialNetwork}
                     />
-                    <Project title={'Cards'} description={'One of my projects'}
+                    <Project title={'Cards'}
+                             description={'TypeScript, React, Redux, Redux-thunk, Router-dom, Axios, Formik, YUP, MUI, SASS'}
                              refToProject={'https://fabskrejt.github.io/card-learning/'}
                              style={backgroundForCards}
                     />
