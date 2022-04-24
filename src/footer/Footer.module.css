@@ -12,13 +12,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 350px;
-    border: 1px solid;
     margin: 40px;
 }
-.footerImg{
-    width: 60px;
-    height: 60px;
-    background-color: gray;
+.footerImg img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
 
 .footer h2{
