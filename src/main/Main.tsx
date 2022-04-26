@@ -13,7 +13,6 @@ const particlesOpt = {
         "zIndex": 1
     },
     particles: {
-
         color: {
             value: "#0a57c7"
         },

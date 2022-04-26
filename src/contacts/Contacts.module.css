@@ -44,6 +44,7 @@ button {
     text-decoration: none;
     box-shadow: 0 12px 18px -6px rgba(254, 197, 68, 0.8);
     transition: 300ms;
+    margin: 40px auto;
 }
 
 button:hover {
