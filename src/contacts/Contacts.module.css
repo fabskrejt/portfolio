@@ -1,7 +1,9 @@
 .contacts {
     min-height: 40vh;
     background-color: #0a101e;
+
 }
+
 
 .container {
     display: flex;

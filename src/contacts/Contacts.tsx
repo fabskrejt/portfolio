@@ -5,14 +5,16 @@ import axios from "axios";
 export const Contacts = () => {
 
     const submitForm = (e: any) => {
-        debugger
+        e.preventDefault()
         const formData = e.currentTarget
         const name = formData[0].value
         const email = formData[1].value
         const comment = formData[2].value
 
-        axios.post('http://localhost:3010/sendmsg', {name,email,comment})
-            .then(res => alert(res))
+        axios.post('https://nodejs-email-sendler.herokuapp.com/sendmsg', {name, email, comment})
+            .then(res => alert(res.data ))
+
+        e.currentTarget.reset()
     }
 
     return (
@@ -25,7 +27,6 @@ export const Contacts = () => {
                     <textarea placeholder={'your comments'}/>
                     <button type={"submit"}>Submit</button>
                 </form>
-
             </div>
         </div>
     )

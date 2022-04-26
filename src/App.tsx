@@ -8,6 +8,7 @@ import {Footer} from "./footer/Footer";
 import styles from "./App.module.css"
 
 function App() {
+    console.log('rendered')
     return (
         <div className={styles.App}>
             <Header/>
