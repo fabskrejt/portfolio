@@ -1,4 +1,4 @@
-import styles from './Contacts.module.css'
+import styles from './Contacts.module.scss'
 import stylesContainer from '../common/styles/Container.module.css'
 import axios from "axios";
 
