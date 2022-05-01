@@ -1,0 +1,62 @@
+.mainBlock {
+  background-color: #070d1b;
+  height: 100vh;
+  display: flex;
+
+  .particles {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+  }
+
+  .text {
+    min-width: 300px;
+    color: #fdfeff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6em;
+
+    h1 {
+      font-size: 60px;
+      font-weight: 600;
+
+      span {
+        color: #fec544;
+      }
+    }
+
+    span {
+      color: #a9adb8;
+    }
+  }
+
+  .img {
+    max-width: 300px;
+    height: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      position: relative;
+      z-index: 4;
+      transition: 800ms;
+
+      &:hover {
+        transform: scale(1.3, 1.3);
+        transition: 800ms;
+      }
+    }
+  }
+
+  @media (max-width: 639px) {
+    .text h1 {
+      line-height: 60px;
+    }
+  }
+}
