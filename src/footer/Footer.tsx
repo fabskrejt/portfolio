@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Footer.module.css'
+import styles from './Footer.module.scss'
 import telegram from "../assets/img/tg.png"
 import linkedIn from "../assets/img/linkedIn.png"
 import gh from "../assets/img/gh.png"
