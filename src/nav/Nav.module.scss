@@ -1,10 +1,9 @@
 .nav {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-}
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 
-.nav a {
+  a {
     text-decoration: none;
     font-size: 15px;
     color: #fdfeff;
@@ -13,8 +12,9 @@
     font-family: 'Roboto', sans-serif;
     z-index: 2;
     cursor: pointer;
-}
 
-.nav a:hover{
-    color: #fec544;
+    &:hover {
+      color: #fec544;
+    }
+  }
 }
